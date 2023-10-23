@@ -1,7 +1,5 @@
 # Azure Kubernetes Service (AKS) Tutorial: (Terraform - Nginx Ingress & TLS - OIDC Workload Identity)
 
-You can find tutorial [here](https://youtu.be/8HmReos6dlY).
-
 ## Create AKS cluster using Terraform
 
 ```bash
