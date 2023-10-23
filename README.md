@@ -17,15 +17,12 @@ az aks get-credentials --resource-group tutorial --name dev-demo
 ```bash
 kubectl apply -f k8s/1-example
 kubectl get svc
-curl http://<ip>/
 ```
 
 ## Auto-Scaling
 
 ```bash
-kubectl get nodes
 kubectl apply -f k8s/2-example
-kubectl get pods
 kubectl describe pods nginx-v2-788b5579fd-dmbg8
 kubectl get pods
 kubectl get nodes
